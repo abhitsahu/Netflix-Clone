@@ -25,17 +25,18 @@ $bgc: rgb(16,16,16);
 
     h1,p{
         color: white;
-        font-size: 4rem;
-        width: 50%;
+        font-size: 3rem;
+        width: 70%;
         z-index: 10;
-
+        
     }
-
+    
     p {
         font-size: 1.3rem;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         word-spacing: 2px;
         font-weight: 100;
+        // position: fixed;
     }
 
     > div {
@@ -43,7 +44,7 @@ $bgc: rgb(16,16,16);
 
         button {
             padding: 1rem;
-            width: 150px;
+            max-width: 150px;
             outline: none;
             border: none;
             z-index: 10;
